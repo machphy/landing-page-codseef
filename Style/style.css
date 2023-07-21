@@ -1,0 +1,203 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+div {
+    display: block;
+  
+}
+h1 {
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+    color: #363958;
+    padding: 0px;
+    margin: 0px;
+  
+}
+h2 {
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    color: #363958;
+}
+h4 {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 1000;
+    color: #363958;
+}
+h5 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 1000;
+    color: #363958;
+}
+a:hover {
+    transition: 1s;
+    box-shadow: box-shadow: 20px 20px 30px #3D4FF3;
+}
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 10px;
+    color: white;
+    text-shadow: 2px 2px rgb(116, 116, 116);
+    text-transform: uppercase;
+    border: solid 2px black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: hsl(49deg 98% 60%);
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+  }
+  
+  button:active {
+    transform: scale(.9);
+    transition: all 100ms ease;
+  }
+  
+  button svg {
+    transition: all .5s ease;
+    z-index: 2;
+  }
+  
+  .play {
+    transition: all .5s ease;
+    transition-delay: 300ms;
+  }
+  
+  button:hover svg {
+    transform: scale(3) translate(50%);
+  }
+  
+  .now {
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .5s ease;
+    z-index: 2;
+  }
+  
+  button:hover .now {
+    transform: translateX(10px);
+    transition-delay: 300ms;
+  }
+  
+  button:hover .play {
+    transform: translateX(200%);
+    transition-delay: 300ms;
+  }
+/* header :start */
+
+
+
+#header {
+    height: auto;
+    padding: 50px 0px 70px 0px;
+    background-color: #fff9f4;
+}
+#header span {
+    font-weight: 1000;
+}
+.custom-navbar {
+    background-color: #fff9f4;
+}
+.custom-ul {
+    text-align: center;
+    background-color: #fff9f4;
+}
+.custom-li {
+    font-weight: 700;
+    padding: 0px 25px;
+}
+.custom-logo {
+    width: 15%;
+}
+/* end  */
+
+
+
+
+/* header, casual shoes, formal shoes */
+.custom-highlight {
+    color: #ff8367;
+}
+.custom-btn {
+    background-color: #3D4FF3;
+    padding: 10px;
+    border: none;
+}
+/* end header, casual shoes, formal shoes */
+
+
+
+
+
+/* casual shoes, formal shoes */
+.custom-card {
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+.custom-footer {
+    background-color: transparent;
+    border: none;
+}
+/* end casual shoes, formal shoes */
+
+
+
+
+
+/* casual shoes */
+.custom-bg {
+    height: 350px;
+    background: #F1F1F1;
+    border-radius: 12px;
+}
+/* end casual shoes */
+
+
+
+
+/* services section */
+.custom-img-width {
+    width: 80px;
+   
+}
+.custom-service-card {
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+
+
+
+
+
+
+/* foooter */
+#footer {
+    padding: 25px 0px;
+}
+footer h5 {
+    padding: 10px 0px;
+    /* border: 1px solid; */
+}
+#footer li a {
+    text-decoration: none;
+}
+/* end footer */
+
+
+
+/* thanks  */
